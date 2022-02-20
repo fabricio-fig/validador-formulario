@@ -1,0 +1,52 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+}
+.screen{
+	display: flex;
+	height: 100vh;
+}
+.leftside{
+	flex: 1;
+}
+.leftside img{
+	margin-top: 100px;
+	max-width: 700px;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+}
+.rightside{
+	width: 600px;
+	background-color: #DDD;
+	padding: 50px;
+}
+.rightside label{
+	display: block;
+	margin-bottom: 20px;
+}
+.rightside input{
+	width: 100%;
+	border: 1px solid #999;
+	border-radius: 3px;
+	padding: 8px;
+	font-size: 14px;
+	outline: 0;
+}
+.error{
+	font-size: 15px;
+	background-color: #FF0000;
+	color: white;
+	padding: 4px;
+	border-radius: 5px;
+}
+#logado-container{
+	text-align: center;
+}
+#logado-container img{
+	width: 800px;
+}
+
+
